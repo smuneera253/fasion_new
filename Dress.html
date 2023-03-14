@@ -6,31 +6,330 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+      body{
+        border: 2px solid rgb(53, 52, 52);
+      }
       #nav{
-        background-color: antiquewhite;
-        color: blue;
+        border: 1px solid;
+        color: rgb(46, 46, 47);
         width: 100%;
-        font-size: 30px;
+        font-size: 22px;
         height: 90px;
     
       }
-      #bar{
+      #bar>nav{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
 
       }
-
+      #main{
+        height: 800px;
+        width: 100%;
+        background-color: aliceblue;
+        display: flex;
+        font-size: 17px;
+        
+      }
+      #main>div{
+        border: 1px solid rgb(45, 45, 45);
+        height: 480px;
+        width: 20%;
+        margin-left: 3.9%;
+        margin-top: 3%;
+        text-align: center;
+      }
+      .img{
+        width: 80%;
+        height: 200px;
+      }
+      #main-image{
+        height: 230px;
+        width: 80%;
+        margin-top: 4%;
+        border: 1px solid rgb(40, 39, 39);
+        margin-left: 5.2%;
+        text-align: center;
+        font-size: 48px;
+        color: rgb(55, 39, 39);
+        /* border-style: outset; */
+        /* border-width: 10px; */
+      }
+      /* second section styles */
+      #second-main{
+        height: 800px;
+        width: 100%;
+        background-color: aliceblue;
+        display: flex;
+        font-size: 17px;
+        margin-top: -10%;
+        
+      }
+      #second-main>div{
+        border: 1px solid black;
+        height: 480px;
+        width: 20%;
+        margin-left: 3.9%;
+        margin-top: 3%;
+        text-align: center;
+        color: rgb(51, 35, 35);
+      }
+      #favorites{
+        display: flex;
+        justify-content: space-around;
+      }
+      #favorites>button{
+        height: 30px;
+        width: 100px;
+        font-size: 19px;
+        border: 2px solid rgb(45, 29, 29);
+      }
+      
+     
     </style>
 </head>
 <body>
     <div id="nav">
-        <nav id="bar">
-            Bridal Wear
-            Fashion Wear
-            Sarry Items
-            Suit
-            About
+        <div id="bar">
+        <nav>
+            <h2><span style="margin-left: -30px;">Logo</span></h2>
+            <h3>Bridal Wear</h3>
+            <h3>Fashion Wear</h3>
+            <h3>Sarry Items</h3>
+            <h3>Suit</h3>
+            <h3>About</h3>
         </nav>
+        </div>
     </div>
+    <div>
+      <h1 align="center">Bridal Wear</h1>
+    </div>
+   
+    <div id="main">
+        <div>
+          <div id="main-image">
+            <h1>Image</h1>
+          </div>
+          <h3>Material type</h3>
+          <h4>Quality</h4>
+          <h2>Price</h2>
+          <div id="favorites">
+            <button>Favorites</button>
+            <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+          </div>
+          </div>
+
+          <div>
+            <div id="main-image">
+              <h1>Image</h1>
+            </div>
+            <h3>Material type</h3>
+            <h4>Quality</h4>
+            <h2>Price</h2>
+            <div id="favorites">
+              <button>Favorites</button>
+              <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+            </div>
+        </div>
+        <div>
+          <div id="main-image">
+            <h1>Image</h1>
+          </div>
+          <h3>Material type</h3>
+          <h4>Quality</h4>
+          <h2>Price</h2>
+          <div id="favorites">
+            <button>Favorites</button>
+            <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+          </div>
+        </div>
+        <div>
+        <div id="main-image">
+          <h1>Image</h1>
+        </div>
+        <h3>Material type</h3>
+        <h4>Quality</h4>
+        <h2>Price</h2>
+        <div id="favorites">
+          <button>Favorites</button>
+          <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+        </div>
+        </div>    
+    </div>
+   
+    <!-- second section -->
+    <!-- <div>
+      <h1 align="center" style="margin-top: 10%;">Fashion Wear</h1>
+    </div> -->
+    
+    <div id="second-main">
+     
+      <div>
+        <div id="main-image">
+          <h1>Image</h1>
+        </div>
+        <h3>Material type</h3>
+        <h4>Quality</h4>
+        <h2>Price</h2>
+        <div id="favorites">
+          <button>Favorites</button>
+          <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+        </div>
+        </div>
+        <div>
+          <div id="main-image">
+            <h1>Image</h1>
+          </div>
+          <h3>Material type</h3>
+          <h4>Quality</h4>
+          <h2>Price</h2>
+          <div id="favorites">
+            <button>Favorites</button>
+            <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+          </div>
+      </div>
+      <div>
+        <div id="main-image">
+          <h1>Image</h1>
+        </div>
+        <h3>Material type</h3>
+        <h4>Quality</h4>
+        <h2>Price</h2>
+        <div id="favorites">
+          <button>Favorites</button>
+          <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+        </div>
+      </div>
+      <div>
+      <div id="main-image">
+        <h1>Image</h1>
+      </div>
+      <h3>Material type</h3>
+      <h4>Quality</h4>
+      <h2>Price</h2>
+      <div id="favorites">
+        <button>Favorites</button>
+        <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+      </div>
+      </div> 
+      </div>
+
+      <!-- section three -->
+      <!-- <div>
+        <h1 align="center">Sarry Items</h1>
+      </div> -->
+
+      <div id="second-main">
+     
+        <div>
+          <div id="main-image">
+            <h1>Image</h1>
+          </div>
+          <h3>Material type</h3>
+          <h4>Quality</h4>
+          <h2>Price</h2>
+          <div id="favorites">
+            <button>Favorites</button>
+            <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+          </div>
+          </div>
+          <div>
+            <div id="main-image">
+              <h1>Image</h1>
+            </div>
+            <h3>Material type</h3>
+            <h4>Quality</h4>
+            <h2>Price</h2>
+            <div id="favorites">
+              <button>Favorites</button>
+              <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+            </div>
+        </div>
+        <div>
+          <div id="main-image">
+            <h1>Image</h1>
+          </div>
+          <h3>Material type</h3>
+          <h4>Quality</h4>
+          <h2>Price</h2>
+          <div id="favorites">
+            <button>Favorites</button>
+            <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+          </div>
+        </div>
+        <div>
+        <div id="main-image">
+          <h1>Image</h1>
+        </div>
+        <h3>Material type</h3>
+        <h4>Quality</h4>
+        <h2>Price</h2>
+        <div id="favorites">
+          <button>Favorites</button>
+          <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+        </div>
+        </div> 
+        </div>
+
+<!-- section four -->
+<!-- <div>
+  <h1 align="center">Suit</h1>
+</div> -->
+        <div id="second-main">
+     
+          <div>
+            <div id="main-image">
+              <h1>Image</h1>
+            </div>
+            <h3>Material type</h3>
+            <h4>Quality</h4>
+            <h2>Price</h2>
+            <div id="favorites">
+              <button>Favorites</button>
+              <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+            </div>
+            </div>
+            <div>
+              <div id="main-image">
+                <h1>Image</h1>
+              </div>
+              <h3>Material type</h3>
+              <h4>Quality</h4>
+              <h2>Price</h2>
+              <div id="favorites">
+                <button>Favorites</button>
+                <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+              </div>
+          </div>
+          <div>
+            <div id="main-image">
+              <h1>Image</h1>
+            </div>
+            <h3>Material type</h3>
+            <h4>Quality</h4>
+            <h2>Price</h2>
+            <div id="favorites">
+              <button>Favorites</button>
+              <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+            </div>
+          </div>
+          <div>
+          <div id="main-image">
+            <h1>Image</h1>
+          </div>
+          <h3>Material type</h3>
+          <h4>Quality</h4>
+          <h2>Price</h2>
+          <div id="favorites">
+            <button>Favorites</button>
+            <button>Book<span style="font-style: strong;color: rgb(87, 51, 51);">It</span></button>
+          </div>
+          </div> 
+          </div>
+          <div>
+            <h1>About</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consectetur inventore ea nostrum quos commodi voluptates ab amet maxime assumenda repellendus fuga explicabo fugit, accusamus in odit veniam quas consequuntur.</h3>
+          </div>
+     
+  
 </body>
 </html>
